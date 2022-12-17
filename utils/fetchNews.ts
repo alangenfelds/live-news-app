@@ -10,3 +10,5 @@ const fetchNews = async (
 };
 
 export default fetchNews;
+
+http://api.mediastack.com/v1/news?access_key=0890380650fe5f03836b075b12559c9b&sources=business,sports
