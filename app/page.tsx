@@ -2,7 +2,7 @@ import React from 'react';
 import NewsList from './NewsList';
 
 import { categories } from '../constants';
-import { fetchNews } from '../utils/fetchNews';
+import fetchNews from '../utils/fetchNews';
 
 const HomePage = async () => {
   const news: NewsResponse = await fetchNews(categories.join(','));
