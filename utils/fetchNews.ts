@@ -16,7 +16,7 @@ const fetchNews = async (
       myQuery(
         access_key: $access_key
         categories: $categories
-        countries: "lv"
+        countries: "gb"
         sort: "published_desc"
         keywords: $keywords
       ) {
