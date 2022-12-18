@@ -3,10 +3,9 @@ import { Bars3Icon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import NavLinks from './NavLinks';
 import SearchBox from './SearchBox';
+import DarkModeButton from './DarkModeButton';
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header>
       <div className="grid grid-cols-3 p-10 items-center">
@@ -18,7 +17,7 @@ const Header = (props: Props) => {
         </Link>
 
         <div className="flex items-center justify-end space-x-2">
-          {/* Dark mode toggle */}
+          <DarkModeButton />
           <button className="hidden md:inline bg-slate-900 text-white px-4 lg:px-8 lg:py-2 rounded-full dark:bg-slate-800">
             Subscribe now
           </button>

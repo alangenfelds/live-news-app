@@ -10,7 +10,7 @@ const Article = ({ article }: Props) => {
       {article.image && (
         <img
           src={article.image}
-          alt={article.title}
+          alt="image"
           className="h-56 w-full object-cover rounded-t-lg shadow-md"
         />
       )}
