@@ -43,11 +43,7 @@ const fetchNews = async (
   `;
 
   // fetch function with NextJS 13 caching
-  console.log(
-    'Loading data from Mediastack API for category: ',
-    category,
-    keywords
-  );
+
   const response = await fetch(
     'https://slutsk.stepzen.net/api/news-fetcher/__graphql',
     {
